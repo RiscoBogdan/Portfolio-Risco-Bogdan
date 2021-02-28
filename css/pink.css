@@ -1,0 +1,90 @@
+.header .NameLogo a:hover::before {
+  border-top: 4px solid #8fe6d8;
+  border-left: 4px solid #6cb8cf;
+}
+.header .NameLogo a:hover::after {
+  border-bottom: 4px solid #8fe6d8;
+  border-right: 4px solid #6cb8cf;
+}
+
+.header .NameLogo a::before {
+  border-top: 4px solid #e96464;
+  border-left: 4px solid #494344;
+}
+.header .NameLogo a::after {
+  border-bottom: 4px solid #e96464;
+  border-right: 4px solid #494344;
+}
+.about .about-content .about-text p span {
+  text-decoration: underline;
+  font-weight: 500;
+  font-size: 16px;
+  color: red;
+}
+.contact .contact-info-item .icon .fa,
+.lightbox .lightbox-controls .prev-item .fa,
+.lightbox .lightbox-controls .next-item .fa,
+.portfolio .portfolio-item .portfolio-info .icon .fa,
+.portfolio .portfolio-filter button.active,
+.about .about-content .about-text h3 span,
+.header .nav li a:hover,
+.header .nav li a.active {
+  color: #ec1839;
+  /* border-bottom: 3px solid #403c42; */
+}
+.resume .resume-content .timeline .circle-dot,
+.resume .resume-content .timeline .timeline-item::before,
+.about .about-content .skills .skill-item .progress .progress-in,
+.btn,
+.section-title h2::after,
+.section-title h2::before,
+.header .nav-toggler span,
+.header .nav-toggler span::before,
+.header .nav-toggler span::after,
+.home .intro .social-links a {
+  background-color: #d84d49;
+}
+
+.portfolio .portfolio-filter button.active{
+  border-color: #ec1839;
+}
+
+
+/* Google Fonts */
+@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
+
+/* Global */
+
+.home .intro p{
+
+  color: #302e4d;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  /* margin: 20px 0 5px; */
+/* background-color: red; */
+    position: relative;
+    /* top: 50%;   */
+    /* width: 24em; */
+    margin: 0 auto;
+    border-right: 2px solid rgba(255, 255, 255, 0.75);
+    /* font-size: 180%; */
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    /* transform: translateY(-50%);     */
+}
+
+/* Animation */
+.anim-typewriter{
+  animation: typewriter 4s steps(44) 1s 1 normal both,
+             blinkTextCursor 800ms steps(44) infinite normal;
+}
+@keyframes typewriter{
+  from{width: 0;}
+  to{width: 350px;}
+}
+@keyframes blinkTextCursor{
+  from{border-right-color: rgba(116, 116, 116, 0.75);}
+  to{border-right-color: transparent;}
+}
+
