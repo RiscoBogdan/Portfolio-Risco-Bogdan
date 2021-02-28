@@ -1116,7 +1116,7 @@ Portfolio section
 @media (max-width: 575px) {
   .contact .contact-info-item,
   .portfolio .portfolio-item {
-    -ms-flex: 0 0 100%;
+    -ms-flex: 0 0 100;
     flex: 0 0 100%;
     max-width: 100%;
   }
