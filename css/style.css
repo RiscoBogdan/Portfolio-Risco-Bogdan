@@ -234,12 +234,10 @@ select {
 .header {
   position: fixed;
   height: 100%;
-
   border-right: 1px solid #000000;
   padding: 30px;
   top: 0;
   left: 0;
- /* overflow-y: auto; */
   width: 270px;
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
@@ -1099,6 +1097,7 @@ Portfolio section
   }
 }
 @media (max-width: 767px) {
+  
   .contact .contact-form .col-6,
   .resume .resume-content .experience,
   .resume .resume-content .education,
@@ -1118,6 +1117,14 @@ Portfolio section
   .portfolio .portfolio-item {
     -ms-flex: 0 0 100;
     flex: 0 0 100%;
+
     max-width: 100%;
   }
 }
+
+.contact .map h3{
+  text-align: center;
+ }
+.contact .map{
+  text-align: center;
+ }

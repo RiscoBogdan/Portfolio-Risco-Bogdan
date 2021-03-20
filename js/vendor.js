@@ -149,3 +149,4 @@ function headerSectionTogglerBtn(){
         allSection[i].classList.toggle("open");
     }
 }
+
